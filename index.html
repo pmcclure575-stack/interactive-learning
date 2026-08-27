@@ -9,7 +9,7 @@
   </header>
 
   <!-- Scenario Setup -->
-  <section style="margin-bottom: 24px;">
+  <section id="step1-intro" style="margin-bottom: 24px;">
     <h3 style="font-size: 18px; color: #0b4f6c; margin-top: 0;">Step 1: Settings &gt; Import Course Content</h3>
     <p>
       You are in your new course shell. You navigate to <strong>Settings &gt; Import Course Content</strong> and select <strong>"Copy a Canvas Course"</strong> from the Content Type menu.
@@ -24,75 +24,72 @@
     <p style="background-color: #f0f7fc; border-left: 4px solid #0b4f6c; padding: 12px; margin: 16px 0; color: #0f2d4a;">
       <strong>Decision Point:</strong> Canvas prompts you to choose which content to include. Select an option below to test the outcome:
     </p>
+
+    <!-- Keyboard-Navigable Action Links -->
+    <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
+      <a href="#outcome-a1" style="display: block; background-color: #f0f7fc; color: #0f2d4a; border: 2px solid #0b4f6c; padding: 14px 16px; border-radius: 6px; font-weight: bold; font-size: 16px; text-decoration: none;">
+        &#10148; Choice A1: Select "All Content" and run the import
+      </a>
+      <a href="#outcome-a2" style="display: block; background-color: #f0f7fc; color: #0f2d4a; border: 2px solid #0b4f6c; padding: 14px 16px; border-radius: 6px; font-weight: bold; font-size: 16px; text-decoration: none;">
+        &#10148; Choice A2: Select "Select Specific Content" and run the import
+      </a>
+    </div>
   </section>
 
-  <!-- Branch Choice A1 -->
-  <details style="margin-bottom: 16px; border: 2px solid #0b4f6c; border-radius: 6px; background-color: #f0f7fc;">
-    <summary 
-      tabindex="0" 
-      role="button" 
-      aria-expanded="false" 
-      style="cursor: pointer; font-weight: bold; font-size: 16px; color: #0f2d4a; padding: 14px; outline: 3px solid #0b4f6c; outline-offset: -3px; border-radius: 4px;" 
-      aria-label="Choice A 1: Import All Content. Press Enter or Space to expand.">
-      &#9654; Choice A1: Select "All Content" and run the import
-    </summary>
-    
-    <div style="padding: 16px; border-top: 2px solid #0b4f6c; background-color: #ffffff;">
-      <p style="display: inline-block; background-color: #f0f7fc; color: #0f2d4a; border: 1px solid #0b4f6c; padding: 4px 8px; font-weight: bold; font-size: 13px; text-transform: uppercase; border-radius: 4px; margin-top: 0;">
-        [Outcome: High Friction &amp; Disorganization]
-      </p>
+  <!-- Outcome A1 Section -->
+  <section id="outcome-a1" style="margin-top: 32px; border: 2px solid #0b4f6c; border-radius: 6px; padding: 20px; background-color: #ffffff;">
+    <p style="display: inline-block; background-color: #f0f7fc; color: #0f2d4a; border: 1px solid #0b4f6c; padding: 4px 8px; font-weight: bold; font-size: 13px; text-transform: uppercase; border-radius: 4px; margin-top: 0;">
+      [Outcome: High Friction &amp; Disorganization]
+    </p>
+    <h3 style="font-size: 18px; color: #0f2d4a; margin: 8px 0 12px 0;">Result of Choice A1 (All Content)</h3>
 
-      <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">The Consequences</h4>
-      <ul style="padding-left: 20px; margin: 0 0 12px 0; color: #1a1a1a;">
-        <li style="margin-bottom: 6px;"><strong>The Mess:</strong> Expired announcements from previous years publish to the course immediately.</li>
-        <li style="margin-bottom: 6px;"><strong>The Chaos:</strong> Obsolete calendar events and legacy due dates populate the student syllabus and calendar views.</li>
-      </ul>
+    <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">The Consequences</h4>
+    <ul style="padding-left: 20px; margin: 0 0 12px 0; color: #1a1a1a;">
+      <li style="margin-bottom: 6px;"><strong>The Mess:</strong> Expired announcements from previous years publish to the course immediately.</li>
+      <li style="margin-bottom: 6px;"><strong>The Chaos:</strong> Obsolete calendar events and legacy due dates populate the student syllabus and calendar views.</li>
+    </ul>
 
-      <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">Simulated Student Feedback</h4>
-      <blockquote style="background-color: #f8fafc; border-left: 4px solid #4a5568; margin: 8px 0 16px 0; padding: 12px; font-style: italic; color: #1a1a1a;">
-        "Hi Professor, I was trying to check the Week 1 quiz, but Canvas states it has been locked since two years ago. Is this course ready for us?"
-      </blockquote>
+    <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">Simulated Student Feedback</h4>
+    <blockquote style="background-color: #f8fafc; border-left: 4px solid #4a5568; margin: 8px 0 16px 0; padding: 12px; font-style: italic; color: #1a1a1a;">
+      "Hi Professor, I was trying to check the Week 1 quiz, but Canvas states it has been locked since two years ago. Is this course ready for us?"
+    </blockquote>
 
-      <div style="background-color: #f0f7fc; border: 1px solid #0b4f6c; border-left: 6px solid #0b4f6c; padding: 12px; border-radius: 4px;">
-        <h4 style="font-size: 15px; color: #0f2d4a; margin: 0 0 6px 0;">The Technical Fix:</h4>
-        <p style="margin: 0 0 8px 0; color: #1a1a1a;">To resolve date collisions after an All-Content migration:</p>
-        <ol style="padding-left: 20px; margin: 0; color: #1a1a1a;">
-          <li style="margin-bottom: 4px;"><strong>Pre-Import:</strong> Under <em>Import Course Content</em>, check <strong>"Adjust events and due dates"</strong> to shift dates to the new term or remove dates entirely.</li>
-          <li><strong>Post-Import:</strong> Go to the <strong>Assignments</strong> index &gt; click the <strong>Options menu (3 dots)</strong> &gt; select <strong>"Edit Assignment Dates"</strong> to bulk-modify all deadlines in a single table.</li>
-        </ol>
-      </div>
+    <div style="background-color: #f0f7fc; border: 1px solid #0b4f6c; border-left: 6px solid #0b4f6c; padding: 12px; border-radius: 4px; margin-bottom: 16px;">
+      <h4 style="font-size: 15px; color: #0f2d4a; margin: 0 0 6px 0;">The Technical Fix:</h4>
+      <ol style="padding-left: 20px; margin: 0; color: #1a1a1a;">
+        <li style="margin-bottom: 4px;"><strong>Pre-Import:</strong> Under <em>Import Course Content</em>, check <strong>"Adjust events and due dates"</strong> to shift dates to the new term or remove dates entirely.</li>
+        <li><strong>Post-Import:</strong> Go to the <strong>Assignments</strong> index &gt; click the <strong>Options menu (3 dots)</strong> &gt; select <strong>"Edit Assignment Dates"</strong> to bulk-modify all deadlines in a single table.</li>
+      </ol>
     </div>
-  </details>
 
-  <!-- Branch Choice A2 -->
-  <details style="margin-bottom: 16px; border: 2px solid #0b4f6c; border-radius: 6px; background-color: #f0f7fc;">
-    <summary 
-      tabindex="0" 
-      role="button" 
-      aria-expanded="false" 
-      style="cursor: pointer; font-weight: bold; font-size: 16px; color: #0f2d4a; padding: 14px; outline: 3px solid #0b4f6c; outline-offset: -3px; border-radius: 4px;" 
-      aria-label="Choice A 2: Import Select Specific Content. Press Enter or Space to expand.">
-      &#9654; Choice A2: Select "Select Specific Content" and run the import
-    </summary>
-    
-    <div style="padding: 16px; border-top: 2px solid #0b4f6c; background-color: #ffffff;">
-      <p style="display: inline-block; background-color: #f0f7fc; color: #0f2d4a; border: 1px solid #0b4f6c; padding: 4px 8px; font-weight: bold; font-size: 13px; text-transform: uppercase; border-radius: 4px; margin-top: 0;">
-        [Outcome: Recommended Best Practice]
+    <a href="#step1-intro" style="display: inline-block; background-color: #0b4f6c; color: #ffffff; padding: 8px 14px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 14px;">
+      &#8617; Return to Decision Point
+    </a>
+  </section>
+
+  <!-- Outcome A2 Section -->
+  <section id="outcome-a2" style="margin-top: 32px; border: 2px solid #0b4f6c; border-radius: 6px; padding: 20px; background-color: #ffffff;">
+    <p style="display: inline-block; background-color: #f0f7fc; color: #0f2d4a; border: 1px solid #0b4f6c; padding: 4px 8px; font-weight: bold; font-size: 13px; text-transform: uppercase; border-radius: 4px; margin-top: 0;">
+      [Outcome: Recommended Best Practice]
+    </p>
+    <h3 style="font-size: 18px; color: #0f2d4a; margin: 8px 0 12px 0;">Result of Choice A2 (Select Specific Content)</h3>
+
+    <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">The Consequences</h4>
+    <ul style="padding-left: 20px; margin: 0 0 12px 0; color: #1a1a1a;">
+      <li style="margin-bottom: 6px;"><strong>The Win:</strong> A "Select Content" button appears in the Current Jobs queue. You can selectively check only your <strong>Modules</strong> and <strong>Question Banks</strong>, avoiding legacy Announcements and outdated settings.</li>
+      <li style="margin-bottom: 6px;"><strong>The Feedback:</strong> The course development shell remains clean, modular, and organized with zero clutter.</li>
+    </ul>
+
+    <div style="background-color: #f0f7fc; border: 1px solid #0b4f6c; border-left: 6px solid #0b4f6c; padding: 12px; border-radius: 4px; margin-bottom: 16px;">
+      <h4 style="font-size: 15px; color: #0f2d4a; margin: 0 0 6px 0;">The Reward: Level Up to Batch Date Editing</h4>
+      <p style="margin: 0; color: #1a1a1a;">
+        With a clean structure in place, navigate to <strong>Assignments &gt; Options (three vertical dots) &gt; Edit Assignment Dates</strong> to align the new due dates with the current semester syllabus.
       </p>
-
-      <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">The Consequences</h4>
-      <ul style="padding-left: 20px; margin: 0 0 12px 0; color: #1a1a1a;">
-        <li style="margin-bottom: 6px;"><strong>The Win:</strong> A "Select Content" button appears in the Current Jobs queue. You can selectively check only your <strong>Modules</strong> and <strong>Question Banks</strong>, avoiding legacy Announcements and outdated settings.</li>
-        <li style="margin-bottom: 6px;"><strong>The Feedback:</strong> The course development shell remains clean, modular, and organized with zero clutter.</li>
-      </ul>
-
-      <div style="background-color: #f0f7fc; border: 1px solid #0b4f6c; border-left: 6px solid #0b4f6c; padding: 12px; border-radius: 4px;">
-        <h4 style="font-size: 15px; color: #0f2d4a; margin: 0 0 6px 0;">The Reward: Level Up to Batch Date Editing</h4>
-        <p style="margin: 0; color: #1a1a1a;">
-          With a clean structure in place, navigate to <strong>Assignments &gt; Options (three vertical dots) &gt; Edit Assignment Dates</strong> to align the new due dates with the current semester syllabus.
-        </p>
-      </div>
     </div>
-  </details>
+
+    <a href="#step1-intro" style="display: inline-block; background-color: #0b4f6c; color: #ffffff; padding: 8px 14px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 14px;">
+      &#8617; Return to Decision Point
+    </a>
+  </section>
 
 </div>
