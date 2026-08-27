@@ -1,95 +1,60 @@
-<div style="font-family: Arial, sans-serif; line-height: 1.6; color: #1a1a1a; max-width: 800px; margin: 0 auto; border: 2px solid #4a5568; border-radius: 8px; padding: 24px; background-color: #ffffff;">
-
-  <!-- Header -->
-  <header style="border-bottom: 2px solid #4a5568; padding-bottom: 12px; margin-bottom: 20px;">
-    <h2 style="font-size: 24px; color: #0f2d4a; margin: 0 0 8px 0;">Canvas Training: Course Content Import Methods</h2>
-    <p style="margin: 0; font-size: 16px; color: #2d3748;">
-      <strong>Branching Exercise:</strong> The "Prior Semester" Choice — Copying a course from a previous term.
-    </p>
-  </header>
-
-  <!-- Scenario Setup -->
-  <section id="step1-intro" style="margin-bottom: 24px;">
-    <h3 style="font-size: 18px; color: #0b4f6c; margin-top: 0;">Step 1: Settings &gt; Import Course Content</h3>
-    <p>
-      You are in your new course shell. You navigate to <strong>Settings &gt; Import Course Content</strong> and select <strong>"Copy a Canvas Course"</strong> from the Content Type menu.
-    </p>
-
-    <!-- Screenshot Drop Box -->
-    <div style="margin: 20px 0; border: 2px dashed #0b4f6c; border-radius: 6px; padding: 16px; background-color: #f8fafc; text-align: center;">
-      <p style="margin: 0; font-weight: bold; color: #0b4f6c;">[ INSERT SCREENSHOT HERE ]</p>
-      <p style="margin: 4px 0 0 0; font-size: 13px; color: #64748b;">(Switch to Visual Editor, highlight this text, and use the Canvas Image Tool to upload/insert your screenshot)</p>
+<div class="branching-scenario-container" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f8fafc; border-radius: 8px; padding: 24px; max-width: 800px; margin: 20px auto; border: 2px solid #cbd5e1;">
+    <header style="border-bottom: 2px solid #0f172a; padding-bottom: 12px; margin-bottom: 20px;"><span style="background-color: #0369a1; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem;">Interactive Scenario</span>
+        <h2 style="margin: 10px 0 0 0; color: #0f172a; font-size: 1.5rem;">Workplace Communication: Facilitating Synchronous Hybrid Meetings</h2>
+    </header>
+    <section aria-labelledby="scene-intro-title">
+        <h3 id="scene-intro-title" style="color: #0f172a; font-size: 1.2rem; margin-top: 0;">Opening Scene: The Disconnected Room</h3>
+        <p>You are facilitating a professional development workshop with 12 attendees in a campus conference room and 8 remote participants joining via video conference. Ten minutes into the session, in-person discussions become lively, but the remote attendees are silent, have their cameras off, and are not using the text chat.</p>
+        <figure style="margin: 20px 0px; background-color: #ffffff; border-radius: 6px; padding: 16px; text-align: center; border: 1px solid #94a3b8;">
+            <div style="background-color: #f1f5f9; padding: 24px; border-radius: 4px; color: #0f172a; border: 2px dashed #64748b;" role="img" aria-label="Split-screen graphic showing an active physical boardroom on the left and a video grid of inactive remote tiles on the right."><span style="display: block; font-size: 1.1rem; color: #0f172a; margin-bottom: 8px;">[ EMBED SCREENSHOT / IMAGE HERE ]</span> <span style="display: block; font-size: 0.95rem;"><strong>Placeholder:</strong> Hybrid Meeting Room Interface / Split Audience View</span> <span style="display: block; font-size: 0.85rem; margin-top: 6px; color: #475569;">Recommended Dimensions: 700x300px | Formats: PNG, JPG</span></div>
+            <figcaption style="margin-top: 8px; font-size: 0.85rem; color: #334155; font-style: italic;">Figure 1: Current session engagement status across in-person and virtual participants.</figcaption>
+        </figure>
+        <p style="color: #0f172a; font-size: 1.05rem;">How do you re-align the room and balance participation?</p>
+    </section>
+    <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 20px;">
+        <details style="background-color: #ffffff; border-radius: 6px; padding: 12px 16px; border: 2px solid #0369a1;">
+            <summary style="font-size: 1.05rem; color: #0c4a6e; cursor: pointer; padding: 6px 0;" aria-label="Select Path 1: Call out remote participants directly">Choice 1: Pause the room and call on remote attendees individually by name</summary>
+            <div style="margin-top: 16px; border-top: 1px solid #bae6fd; padding-top: 16px;">
+                <div style="display: inline-block; background-color: #e0f2fe; color: #082f49; border-left: 4px solid #0369a1; padding: 8px 12px; margin-bottom: 14px;">Result: High Anxiety &amp; Disjointed Flow</div>
+                <figure style="margin: 16px 0px; background-color: #f8fafc; border-radius: 6px; padding: 12px; text-align: center; border: 1px solid #94a3b8;">
+                    <div style="background-color: #ffffff; padding: 16px; border-radius: 4px; color: #0f172a; border: 2px dashed #64748b;" role="img" aria-label="Screenshot of video conference showing unmuted microphone errors and awkward pauses."><span style="display: block; font-size: 1rem; color: #0f172a;">[ EMBED BRANCH 1 SCREENSHOT HERE ]</span> <span style="display: block; font-size: 0.85rem; color: #475569;">Placeholder: Video conference UI showing muted mic prompts</span></div>
+                    <figcaption style="margin-top: 6px; font-size: 0.8rem; color: #334155; font-style: italic;">Figure 2: Audio latency and cold-calling friction in hybrid spaces.</figcaption>
+                </figure>
+                <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #0f172a;">
+                    <li><strong>The Friction:</strong> Called-out individuals scramble to unmute or experience audio delay, stalling discussion momentum.</li>
+                    <li><strong>The Outcome:</strong> Remote learners feel put on the spot rather than integrated, while in-person momentum drops.</li>
+                </ul>
+                <div style="background-color: #f0f9ff; border-radius: 6px; padding: 14px; margin-bottom: 16px; border: 1px solid #7dd3fc;" role="region" aria-label="Learner Feedback Analysis">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem;">Facilitation Analysis:</h4>
+                    <p style="margin: 0; font-style: italic; color: #082f49;">"Cold calling without structured thinking time increases cognitive load and participation anxiety for virtual learners."</p>
+                </div>
+                <div style="background-color: #f0f9ff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #7dd3fc #7dd3fc #7dd3fc #0369a1; border-radius: 4px; padding: 12px 16px;">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem;">Recommended Instructional Adjustment:</h4>
+                    <ol style="margin: 0; padding-left: 20px; color: #0f172a;">
+                        <li>Use a <strong>"Chat Fall" or 60-second silent write</strong> so all participants prepare contributions simultaneously.</li>
+                        <li>Assign a dedicated in-person <strong>"Chat Voice" advocate</strong> to relay virtual questions to the room in real time.</li>
+                    </ol>
+                </div>
+            </div>
+        </details>
+        <details style="background-color: #ffffff; border-radius: 6px; padding: 12px 16px; border: 2px solid #0369a1;">
+            <summary style="font-size: 1.05rem; color: #0c4a6e; cursor: pointer; padding: 6px 0;" aria-label="Select Path 2: Implement a shared digital workspace">Choice 2: Introduce a shared collaborative digital whiteboard for simultaneous input</summary>
+            <div style="margin-top: 16px; border-top: 1px solid #bae6fd; padding-top: 16px;">
+                <div style="display: inline-block; background-color: #e0f2fe; color: #082f49; border-left: 4px solid #0369a1; padding: 8px 12px; margin-bottom: 14px;">Result: Equal Modality Parity &amp; Active Collaboration</div>
+                <figure style="margin: 16px 0px; background-color: #f8fafc; border-radius: 6px; padding: 12px; text-align: center; border: 1px solid #94a3b8;">
+                    <div style="background-color: #ffffff; padding: 16px; border-radius: 4px; color: #0f172a; border: 2px dashed #64748b;" role="img" aria-label="Screenshot of collaborative board showing digital sticky notes populated simultaneously by in-person and remote users."><span style="display: block; font-size: 1rem; color: #0f172a;">[ EMBED BRANCH 2 SCREENSHOT HERE ]</span> <span style="display: block; font-size: 0.85rem; color: #475569;">Placeholder: Shared whiteboard grid with multi-user cursors</span></div>
+                    <figcaption style="margin-top: 6px; font-size: 0.8rem; color: #334155; font-style: italic;">Figure 3: Synchronous contribution using digital collaboration boards.</figcaption>
+                </figure>
+                <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #0f172a;">
+                    <li><strong>The Bridge:</strong> In-person attendees open the board on laptops or phones, placing them in the exact same workspace as remote peers.</li>
+                    <li><strong>The Output:</strong> Idea generation happens in parallel without cross-talk or hardware latency limitations.</li>
+                </ul>
+                <div style="background-color: #f0f9ff; border-radius: 6px; padding: 14px; border: 1px solid #7dd3fc;" role="region" aria-label="Outcome Summary">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem;">Facilitation Standard Achieved:</h4>
+                    <p style="margin: 0; color: #082f49;">Universal Design for Learning (UDL) principles are met by providing multiple means of action and expression across modalities.</p>
+                </div>
+            </div>
+        </details>
     </div>
-
-    <p style="background-color: #f0f7fc; border-left: 4px solid #0b4f6c; padding: 12px; margin: 16px 0; color: #0f2d4a;">
-      <strong>Decision Point:</strong> Canvas prompts you to choose which content to include. Select an option below to test the outcome:
-    </p>
-
-    <!-- Keyboard-Navigable Action Links -->
-    <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
-      <a href="#outcome-a1" style="display: block; background-color: #f0f7fc; color: #0f2d4a; border: 2px solid #0b4f6c; padding: 14px 16px; border-radius: 6px; font-weight: bold; font-size: 16px; text-decoration: none;">
-        &#10148; Choice A1: Select "All Content" and run the import
-      </a>
-      <a href="#outcome-a2" style="display: block; background-color: #f0f7fc; color: #0f2d4a; border: 2px solid #0b4f6c; padding: 14px 16px; border-radius: 6px; font-weight: bold; font-size: 16px; text-decoration: none;">
-        &#10148; Choice A2: Select "Select Specific Content" and run the import
-      </a>
-    </div>
-  </section>
-
-  <!-- Outcome A1 Section -->
-  <section id="outcome-a1" style="margin-top: 32px; border: 2px solid #0b4f6c; border-radius: 6px; padding: 20px; background-color: #ffffff;">
-    <p style="display: inline-block; background-color: #f0f7fc; color: #0f2d4a; border: 1px solid #0b4f6c; padding: 4px 8px; font-weight: bold; font-size: 13px; text-transform: uppercase; border-radius: 4px; margin-top: 0;">
-      [Outcome: High Friction &amp; Disorganization]
-    </p>
-    <h3 style="font-size: 18px; color: #0f2d4a; margin: 8px 0 12px 0;">Result of Choice A1 (All Content)</h3>
-
-    <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">The Consequences</h4>
-    <ul style="padding-left: 20px; margin: 0 0 12px 0; color: #1a1a1a;">
-      <li style="margin-bottom: 6px;"><strong>The Mess:</strong> Expired announcements from previous years publish to the course immediately.</li>
-      <li style="margin-bottom: 6px;"><strong>The Chaos:</strong> Obsolete calendar events and legacy due dates populate the student syllabus and calendar views.</li>
-    </ul>
-
-    <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">Simulated Student Feedback</h4>
-    <blockquote style="background-color: #f8fafc; border-left: 4px solid #4a5568; margin: 8px 0 16px 0; padding: 12px; font-style: italic; color: #1a1a1a;">
-      "Hi Professor, I was trying to check the Week 1 quiz, but Canvas states it has been locked since two years ago. Is this course ready for us?"
-    </blockquote>
-
-    <div style="background-color: #f0f7fc; border: 1px solid #0b4f6c; border-left: 6px solid #0b4f6c; padding: 12px; border-radius: 4px; margin-bottom: 16px;">
-      <h4 style="font-size: 15px; color: #0f2d4a; margin: 0 0 6px 0;">The Technical Fix:</h4>
-      <ol style="padding-left: 20px; margin: 0; color: #1a1a1a;">
-        <li style="margin-bottom: 4px;"><strong>Pre-Import:</strong> Under <em>Import Course Content</em>, check <strong>"Adjust events and due dates"</strong> to shift dates to the new term or remove dates entirely.</li>
-        <li><strong>Post-Import:</strong> Go to the <strong>Assignments</strong> index &gt; click the <strong>Options menu (3 dots)</strong> &gt; select <strong>"Edit Assignment Dates"</strong> to bulk-modify all deadlines in a single table.</li>
-      </ol>
-    </div>
-
-    <a href="#step1-intro" style="display: inline-block; background-color: #0b4f6c; color: #ffffff; padding: 8px 14px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 14px;">
-      &#8617; Return to Decision Point
-    </a>
-  </section>
-
-  <!-- Outcome A2 Section -->
-  <section id="outcome-a2" style="margin-top: 32px; border: 2px solid #0b4f6c; border-radius: 6px; padding: 20px; background-color: #ffffff;">
-    <p style="display: inline-block; background-color: #f0f7fc; color: #0f2d4a; border: 1px solid #0b4f6c; padding: 4px 8px; font-weight: bold; font-size: 13px; text-transform: uppercase; border-radius: 4px; margin-top: 0;">
-      [Outcome: Recommended Best Practice]
-    </p>
-    <h3 style="font-size: 18px; color: #0f2d4a; margin: 8px 0 12px 0;">Result of Choice A2 (Select Specific Content)</h3>
-
-    <h4 style="font-size: 16px; color: #0f2d4a; margin: 12px 0 6px 0;">The Consequences</h4>
-    <ul style="padding-left: 20px; margin: 0 0 12px 0; color: #1a1a1a;">
-      <li style="margin-bottom: 6px;"><strong>The Win:</strong> A "Select Content" button appears in the Current Jobs queue. You can selectively check only your <strong>Modules</strong> and <strong>Question Banks</strong>, avoiding legacy Announcements and outdated settings.</li>
-      <li style="margin-bottom: 6px;"><strong>The Feedback:</strong> The course development shell remains clean, modular, and organized with zero clutter.</li>
-    </ul>
-
-    <div style="background-color: #f0f7fc; border: 1px solid #0b4f6c; border-left: 6px solid #0b4f6c; padding: 12px; border-radius: 4px; margin-bottom: 16px;">
-      <h4 style="font-size: 15px; color: #0f2d4a; margin: 0 0 6px 0;">The Reward: Level Up to Batch Date Editing</h4>
-      <p style="margin: 0; color: #1a1a1a;">
-        With a clean structure in place, navigate to <strong>Assignments &gt; Options (three vertical dots) &gt; Edit Assignment Dates</strong> to align the new due dates with the current semester syllabus.
-      </p>
-    </div>
-
-    <a href="#step1-intro" style="display: inline-block; background-color: #0b4f6c; color: #ffffff; padding: 8px 14px; border-radius: 4px; font-weight: bold; text-decoration: none; font-size: 14px;">
-      &#8617; Return to Decision Point
-    </a>
-  </section>
-
+    <footer style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #cbd5e1; font-size: 0.9rem; color: #1e293b;"><strong style="color: #0f172a;">Core Standard:</strong> In hybrid adult learning environments, centralize activity interactions inside a shared digital workspace rather than relying solely on room audio.</footer>
 </div>
