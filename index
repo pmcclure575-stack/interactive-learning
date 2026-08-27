@@ -1,0 +1,110 @@
+<div class="branching-scenario-container" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f8fafc; border-radius: 8px; padding: 24px; max-width: 800px; margin: 20px auto; border: 2px solid #cbd5e1;">
+    <header style="border-bottom: 2px solid #0f172a; padding-bottom: 12px; margin-bottom: 20px;"><span style="background-color: #0369a1; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem;">Interactive Scenario</span>
+        <h2 style="margin: 10px 0 0 0; color: #0f172a; font-size: 1.5rem;">The "Prior Semester" Choice: Copying a Course Shell</h2>
+    </header>
+    <section aria-labelledby="scene-intro-title">
+        <h3 id="scene-intro-title" style="color: #0f172a; font-size: 1.2rem; margin-top: 0;">Opening Scene: The Blank Canvas Shell</h3>
+        <p>You have been assigned a new course shell for the upcoming semester. To save time, you navigate to <strong>Settings &gt; Import Course Content</strong> and select <strong>"Copy a Canvas Course"</strong> from the dropdown.</p>
+        <figure style="margin: 20px 0px; background-color: #ffffff; border-radius: 6px; padding: 16px; text-align: center; border: 1px solid #94a3b8;">
+            <div style="background-color: #f1f5f9; padding: 24px; border-radius: 4px; color: #0f172a; border: 2px dashed #64748b;" role="img" aria-label="Canvas Import Content interface showing Content Type dropdown set to Copy a Canvas Course, with radio buttons for All Content and Select Specific Content."><span style="display: block; font-size: 1.1rem; color: #0f172a; margin-bottom: 8px;"><img id="215091386" src="https://learn.vccs.edu/courses/814770/files/215091386/preview" alt="Course import UI with a replacement warning message, content dropdowns, and material import options." data-api-endpoint="https://learn.vccs.edu/api/v1/courses/814770/files/215091386" data-api-returntype="File" /></span></div>
+            <figcaption style="margin-top: 8px; font-size: 0.85rem; color: #334155; font-style: italic;">Canvas Import Screen: Choose how much content to pull into your new shell.</figcaption>
+        </figure>
+        <p style="color: #0f172a; font-size: 1.05rem;">How do you proceed with your import?</p>
+    </section>
+    <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 20px;">
+        <details style="background-color: #ffffff; border-radius: 6px; padding: 12px 16px; border: 2px solid #0369a1;">
+            <summary style="font-size: 1.05rem; color: #0c4a6e; cursor: pointer; padding: 6px 0;" aria-label="Select Choice A 1: Import All Content">Choice A1: Click "All Content" and run the import</summary>
+            <div style="margin-top: 16px; border-top: 1px solid #bae6fd; padding-top: 16px;">
+                <div style="display: inline-block; background-color: #e0f2fe; color: #082f49; border-left: 4px solid #0369a1; padding: 8px 12px; margin-bottom: 14px;"><strong>Result: Course Clutter &amp; Date Confusion</strong></div>
+                <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #0f172a;">
+                    <li><strong>The Mess:</strong> Expired announcements from 2024 publish immediately to your newly enrolled students.</li>
+                    <li><strong>The Chaos:</strong> Duplicate and outdated calendar events appear, shifting due dates out of alignment.</li>
+                </ul>
+                <div style="background-color: #f0f9ff; border-radius: 6px; padding: 14px; margin-bottom: 16px; border: 1px solid #7dd3fc;" role="region" aria-label="Simulated Student Email">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem;">Simulated Student Message:</h4>
+                    <p style="margin: 0; font-style: italic; color: #082f49;">"Hi Professor, I went to take the Week 1 syllabus quiz, but Canvas says it's locked until August 2024. Am I in the wrong section?"</p>
+                </div>
+                <div style="background-color: #f0f9ff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #7dd3fc #7dd3fc #7dd3fc #0369a1; border-radius: 4px; padding: 12px 16px;">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem;">The Technical Fix:</h4>
+                    <ol style="margin: 0; padding-left: 20px; color: #0f172a;">
+                        <li>Before importing, check <strong>"Adjust events and due dates"</strong> to shift deadlines automatically or remove dates entirely.</li>
+                        <li>If already imported, go to <strong>Assignments &gt; Options Menu (⋮) &gt; Edit Assignment Dates</strong> to batch-update all deadlines in one screen.</li>
+                    </ol>
+                </div>
+            </div>
+        </details>
+        <details style="background-color: #ffffff; border-radius: 6px; padding: 12px 16px; border: 2px solid #0369a1;">
+            <summary style="font-size: 1.05rem; color: #0c4a6e; cursor: pointer; padding: 6px 0;" aria-label="Select Choice A 2: Import Select Specific Content">Choice A2: Choose "Select Specific Content" and click Import</summary>
+            <div style="margin-top: 16px; border-top: 1px solid #bae6fd; padding-top: 16px;">
+                <div style="display: inline-block; background-color: #e0f2fe; color: #082f49; border-left: 4px solid #0369a1; padding: 8px 12px; margin-bottom: 14px;"><strong>Result: Clean &amp; Controlled Migration</strong></div>
+                <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #0f172a;">
+                    <li><strong>The Win:</strong> Canvas queues the job. Clicking the <strong>"Select Content"</strong> button opens an itemized menu.</li>
+                    <li><strong>Selective Precision:</strong> You check only current <strong>Modules</strong> and <strong>Question Banks</strong>, leaving behind stale announcements and obsolete assignments.</li>
+                </ul>
+                <div style="background-color: #f0f9ff; border-radius: 6px; padding: 14px; border: 1px solid #7dd3fc;" role="region" aria-label="Outcome Summary">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem;">Course Quality Result:</h4>
+                    <p style="margin: 0; color: #082f49;">Your development shell remains clean, modular, and un-cluttered. Students only see relevant, updated coursework on Day 1.</p>
+                </div>
+            </div>
+        </details>
+    </div>
+    <footer style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #cbd5e1; font-size: 0.9rem; color: #1e293b;"><strong style="color: #0f172a;">Design Standard Reminder:</strong> Keep course shells uncluttered by importing incrementally. Always review the <em>Assignments &gt; Edit Dates</em> dashboard before publishing your course.</footer>
+</div>
+<div class="branching-scenario-container" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #0f172a; background-color: #f8fafc; border: 2px solid #cbd5e1; border-radius: 8px; padding: 24px; max-width: 800px; margin: 20px auto;"><!-- Scenario Header -->
+    <header style="border-bottom: 2px solid #0f172a; padding-bottom: 12px; margin-bottom: 20px;"><span style="background-color: #0369a1; color: #ffffff; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;">Interactive Scenario</span>
+        <h2 style="margin: 10px 0 0 0; color: #0f172a; font-size: 1.5rem; font-weight: 800;">The "Prior Semester" Choice: Copying a Course Shell</h2>
+    </header><!-- Opening Scene & Context -->
+    <section aria-labelledby="scene-intro-title">
+        <h3 id="scene-intro-title" style="color: #0f172a; font-size: 1.2rem; margin-top: 0; font-weight: 800;">Opening Scene: The Blank Canvas Shell</h3>
+        <p>You have been assigned a new course shell for the upcoming semester. To save time, you navigate to <strong>Settings &gt; Import Course Content</strong> and select <strong>"Copy a Canvas Course"</strong> from the dropdown.</p>
+        <!-- Screenshot / Interface Placeholder -->
+        <figure style="margin: 20px 0; background-color: #ffffff; border: 1px solid #94a3b8; border-radius: 6px; padding: 16px; text-align: center;">
+            <div style="background-color: #f1f5f9; border: 2px dashed #64748b; padding: 24px; border-radius: 4px; color: #0f172a;" role="img" aria-label="Canvas Import Content interface showing Content Type dropdown set to Copy a Canvas Course, with radio buttons for All Content and Select Specific Content."><span style="display: block; font-size: 1.1rem; font-weight: 800; color: #0f172a; margin-bottom: 8px;">[ Canvas Interface: Import Course Content ]</span> <span style="display: block; font-size: 0.95rem;"><strong>Content Type:</strong> Copy a Canvas Course</span> <span style="display: block; font-size: 0.95rem; margin-top: 4px;"><strong>Options:</strong> ( ) All Content &nbsp;&nbsp;|&nbsp;&nbsp; ( ) Select Specific Content</span></div>
+            <figcaption style="margin-top: 8px; font-size: 0.85rem; color: #334155; font-style: italic; font-weight: bold;">Canvas Import Screen: Choose how much content to pull into your new shell.</figcaption>
+        </figure>
+        <p style="font-weight: 800; color: #0f172a; font-size: 1.05rem;">How do you proceed with your import?</p>
+    </section>
+    <!-- Decision Branches (Uniform Blue Styling) -->
+    <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 20px;"><!-- BRANCH A1 -->
+        <details style="background-color: #ffffff; border: 2px solid #0369a1; border-radius: 6px; padding: 12px 16px;">
+            <summary style="font-size: 1.05rem; font-weight: 800; color: #0c4a6e; cursor: pointer; padding: 6px 0;" aria-label="Select Choice A 1: Import All Content">Choice A1: Click "All Content" and run the import</summary>
+            <div style="margin-top: 16px; border-top: 1px solid #bae6fd; padding-top: 16px;">
+                <div style="display: inline-block; background-color: #e0f2fe; color: #082f49; border-left: 4px solid #0369a1; padding: 8px 12px; margin-bottom: 14px; font-weight: 800;">Result: Course Clutter &amp; Date Confusion</div>
+                <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #0f172a;">
+                    <li><strong>The Mess:</strong> Expired announcements from 2024 publish immediately to your newly enrolled students.</li>
+                    <li><strong>The Chaos:</strong> Duplicate and outdated calendar events appear, shifting due dates out of alignment.</li>
+                </ul>
+                <!-- Simulated Student Email -->
+                <div style="background-color: #f0f9ff; border: 1px solid #7dd3fc; border-radius: 6px; padding: 14px; margin-bottom: 16px;" role="region" aria-label="Simulated Student Email">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem; font-weight: 800;">Simulated Student Message:</h4>
+                    <p style="margin: 0; font-style: italic; color: #082f49;">"Hi Professor, I went to take the Week 1 syllabus quiz, but Canvas says it's locked until August 2024. Am I in the wrong section?"</p>
+                </div>
+                <!-- Technical Fix -->
+                <div style="background-color: #f0f9ff; border: 1px solid #7dd3fc; border-left: 4px solid #0369a1; border-radius: 4px; padding: 12px 16px;">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem; font-weight: 800;">The Technical Fix:</h4>
+                    <ol style="margin: 0; padding-left: 20px; color: #0f172a;">
+                        <li>Before importing, check <strong>"Adjust events and due dates"</strong> to shift deadlines automatically or remove dates entirely.</li>
+                        <li>If already imported, go to <strong>Assignments &gt; Options Menu (⋮) &gt; Edit Assignment Dates</strong> to batch-update all deadlines in one screen.</li>
+                    </ol>
+                </div>
+            </div>
+        </details><!-- BRANCH A2 -->
+        <details style="background-color: #ffffff; border: 2px solid #0369a1; border-radius: 6px; padding: 12px 16px;">
+            <summary style="font-size: 1.05rem; font-weight: 800; color: #0c4a6e; cursor: pointer; padding: 6px 0;" aria-label="Select Choice A 2: Import Select Specific Content">Choice A2: Choose "Select Specific Content" and click Import</summary>
+            <div style="margin-top: 16px; border-top: 1px solid #bae6fd; padding-top: 16px;">
+                <div style="display: inline-block; background-color: #e0f2fe; color: #082f49; border-left: 4px solid #0369a1; padding: 8px 12px; margin-bottom: 14px; font-weight: 800;">Result: Clean &amp; Controlled Migration</div>
+                <ul style="margin: 0 0 16px 0; padding-left: 20px; color: #0f172a;">
+                    <li><strong>The Win:</strong> Canvas queues the job. Clicking the <strong>"Select Content"</strong> button opens an itemized menu.</li>
+                    <li><strong>Selective Precision:</strong> You check only current <strong>Modules</strong> and <strong>Question Banks</strong>, leaving behind stale announcements and obsolete assignments.</li>
+                </ul>
+                <!-- Outcome Summary -->
+                <div style="background-color: #f0f9ff; border: 1px solid #7dd3fc; border-radius: 6px; padding: 14px;" role="region" aria-label="Outcome Summary">
+                    <h4 style="margin: 0 0 4px 0; color: #082f49; font-size: 1rem; font-weight: 800;">Course Quality Result:</h4>
+                    <p style="margin: 0; color: #082f49;">Your development shell remains clean, modular, and un-cluttered. Students only see relevant, updated coursework on Day 1.</p>
+                </div>
+            </div>
+        </details>
+    </div>
+    <!-- Key Takeaway -->
+    <footer style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #cbd5e1; font-size: 0.9rem; color: #1e293b;"><strong style="font-weight: 800; color: #0f172a;">Design Standard Reminder:</strong> Keep course shells uncluttered by importing incrementally. Always review the <em>Assignments &gt; Edit Dates</em> dashboard before publishing your course.</footer>
+</div>
